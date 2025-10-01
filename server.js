@@ -135,6 +135,9 @@ app.use((error, req, res, next) => {
   });
 });
 
+// Start server - Vercel will handle this
+
+
 // Start server
 app.listen(PORT, () => {
   console.log(` FieldOps Server running on port ${PORT}`);
@@ -186,3 +189,4 @@ app.listen(PORT, () => {
   console.log(`   GET  http://localhost:${PORT}/api/dashboard/admin (Admin only)`);
   console.log(`💡 TIP: Use Authorization: Bearer <token> header for protected routes`);
 });
+
