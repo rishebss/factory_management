@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Import routes
 const userRoutes = require('./routes/userRoutes');
-const fieldWorkerRoutes = require('./routes/fieldworkerRoutes');
+const fieldWorkerRoutes = require('./routes/fieldWorkerRoutes');
 const authRoutes = require('./routes/authRoutes'); 
 const adminRoutes = require('./routes/adminRoutes');
 const serviceRequestRoutes = require('./routes/serviceRequestRoutes');
